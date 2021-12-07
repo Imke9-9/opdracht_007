@@ -1,0 +1,52 @@
+*{
+    margin: 10px
+}
+header {
+    border: blue 5px solid;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center
+    
+}
+
+main {
+    border: blue 3px solid;
+    padding: 5px 20px
+}
+
+ul {
+    padding-left: 0;
+    list-style: circle;
+}
+
+footer {
+    border: blue 3px solid;
+    padding: 5px 20px
+}
+
+a {
+    color:blue;
+}
+
+nav li{
+    display: inline;
+}
+
+@media (max-width: 480px){
+    main {font-size: 2em}
+    Header {font-size: 2em}
+    a {font-size:2em}
+    img {width:50%}
+}
+
+@media (min-width: 1024px) {
+* {background-color: lightblue}
+main {color: gray}
+header {color: gray}
+a {color:gray}
+main{font-size: 0.75em}
+header {font-size: 0.75em}
+a {font-size: 0.75em}
+img {width: 20%}
+* {line-height: 0.5em;}
+}
